@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Aportes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Calculadora de aportes</h1>
+            <p>Empresa y Dependientes</p>
+        </header>
+
+        <div class="card">
+            <div class="form-group">
+                <label>
+                    Salario mensual o IBC
+                    <span style="font-size:12px; color:#555;">
+                        (Ingreso Base de Cotización)
+                    </span>
+                </label>
+                <input type="number" id="salario" placeholder="Ingrese el salario">
+                <small style="color:#555;">
+                    El IBC es la base sobre la cual se calculan los aportes a seguridad social.
+                </small>
+                <small id="error" style="color:red; display:block; margin-top:5px;"></small>
+
+            </div>
+
+            <div class="form-group">
+                <label>Nivel de riesgo ARL</label>
+                <select id="arl">
+                    <option value="0.0052">Riesgo 1 - 0.52%</option>
+                    <option value="0.0104">Riesgo 2 - 1.04%</option>
+                    <option value="0.0244">Riesgo 3 - 2.44%</option>
+                    <option value="0.0435">Riesgo 4 - 4.35%</option>
+                    <option value="0.0696">Riesgo 5 - 6.96%</option>
+                </select>
+            </div>
+
+            <button id="btnCalcular">Calcular aportes</button>
+            
+
+
+        </div>
+
+        <div class="card">
+            <table>
+                <tr>
+                    <td>Salud (4%)</td>
+                    <td id="salud">$0</td>
+                </tr>
+                <tr>
+                    <td>Pensión (16%)</td>
+                    <td id="pension">$0</td>
+                </tr>
+                <tr>
+                    <td>ARL</td>
+                    <td id="valorArl">$0</td>
+                </tr>
+                <tr>
+                    <td>Caja de Compensación (4%)</td>
+                    <td id="caja">$0</td>
+                </tr>
+                <tr class="total">
+                    <td>Total aportes</td>
+                    <td id="total">$0</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
