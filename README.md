@@ -1,10 +1,10 @@
-# 💰 Calculadora de Aportes a Seguridad Social
+#  Calculadora de Aportes a Seguridad Social
 
 Aplicación web desarrollada para calcular los aportes a seguridad social de trabajadores dependientes en Colombia.
 
 ---
 
-## 📌 Descripción
+##  Descripción
 
 Esta herramienta permite calcular automáticamente los valores correspondientes a:
 
@@ -17,7 +17,7 @@ El cálculo se realiza con base en el **Ingreso Base de Cotización (IBC)** ingr
 
 ---
 
-## 🚀 Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 
 - HTML5
 - CSS3
@@ -29,7 +29,7 @@ El cálculo se realiza con base en el **Ingreso Base de Cotización (IBC)** ingr
 
 ---
 
-## ⚙️ Requisitos
+##  Requisitos
 
 No requiere instalación.
 
@@ -40,7 +40,7 @@ Solo necesitas:
 
 ---
 
-## 📦 Instalación Local
+##  Instalación Local
 
 1. Clonar el repositorio:
 
